@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,24 +7,28 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
-  background-color: #f0f0f5; /* Warna latar belakang lembut */
+  background-color: #f0f0f5;
   color: #333;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff; /* Putih untuk latar belakang kontainer */
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 header {
   text-align: center;
   margin-bottom: 30px;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 12px 12px 0 0;
 }
 
 .profile-img {
@@ -36,23 +42,22 @@ header {
 
 header h1 {
   font-size: 2.5em;
-  color: #333;
+  color: white;
 }
 
 header p {
   font-size: 1.2em;
-  color: #666;
+  color: white;
 }
 
 h2 {
-  color: #444;
+  color: #007bff;
   margin-bottom: 10px;
 }
 
 section {
   margin-bottom: 20px;
   padding: 15px 0;
-  /* border-bottom: 2px solid #007bff; */
 }
 
 ul {
@@ -64,11 +69,34 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* .contact a {
-  color: #007bff;
+a {
+  color: #000000;
   text-decoration: none;
-} */
+}
 
-/* .contact a:hover {
+a:hover {
   text-decoration: underline;
-} */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
